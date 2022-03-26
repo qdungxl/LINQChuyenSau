@@ -9,3 +9,7 @@ Trong này chứa ví dụ sử dụng Implicitly Typed Variables.
 
 ![image](https://user-images.githubusercontent.com/94212972/160229301-a391d6c8-db9e-458f-8e51-beb4db23f822.png)
 
+## 3. ObjectInitializers
+Trong này chứa ví dụ sử dụng Object Initializers
+
+![image](https://user-images.githubusercontent.com/94212972/160229861-69e1c2e7-3004-49e6-9aeb-7f400f67f614.png)
