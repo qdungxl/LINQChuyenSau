@@ -38,15 +38,15 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtMa = new System.Windows.Forms.TextBox();
-            this.txtTen = new System.Windows.Forms.TextBox();
-            this.btnLuu = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.lvSinhVien = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.txtTen = new System.Windows.Forms.TextBox();
+            this.txtMa = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -169,47 +169,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dictionary";
             // 
-            // label2
+            // button1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(86, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Mã:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(86, 109);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 20);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Tên:";
-            // 
-            // txtMa
-            // 
-            this.txtMa.Location = new System.Drawing.Point(167, 46);
-            this.txtMa.Name = "txtMa";
-            this.txtMa.Size = new System.Drawing.Size(259, 26);
-            this.txtMa.TabIndex = 2;
-            // 
-            // txtTen
-            // 
-            this.txtTen.Location = new System.Drawing.Point(167, 100);
-            this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(259, 26);
-            this.txtTen.TabIndex = 2;
-            // 
-            // btnLuu
-            // 
-            this.btnLuu.Location = new System.Drawing.Point(167, 144);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(107, 49);
-            this.btnLuu.TabIndex = 3;
-            this.btnLuu.Text = "Lưu";
-            this.btnLuu.UseVisualStyleBackColor = true;
-            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+            this.button1.Location = new System.Drawing.Point(313, 144);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(107, 49);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Xóa";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lvSinhVien
             // 
@@ -238,15 +206,47 @@
             this.columnHeader2.Text = "Tên";
             this.columnHeader2.Width = 200;
             // 
-            // button1
+            // btnLuu
             // 
-            this.button1.Location = new System.Drawing.Point(313, 144);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 49);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Xóa";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnLuu.Location = new System.Drawing.Point(167, 144);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(107, 49);
+            this.btnLuu.TabIndex = 3;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+            // 
+            // txtTen
+            // 
+            this.txtTen.Location = new System.Drawing.Point(167, 100);
+            this.txtTen.Name = "txtTen";
+            this.txtTen.Size = new System.Drawing.Size(259, 26);
+            this.txtTen.TabIndex = 2;
+            // 
+            // txtMa
+            // 
+            this.txtMa.Location = new System.Drawing.Point(167, 46);
+            this.txtMa.Name = "txtMa";
+            this.txtMa.Size = new System.Drawing.Size(259, 26);
+            this.txtMa.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(86, 109);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Tên:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(86, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mã:";
             // 
             // Form1
             // 
@@ -257,7 +257,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Học Generics";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();

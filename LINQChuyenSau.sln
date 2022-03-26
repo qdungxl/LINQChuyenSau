@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocGenerics", "HocGenerics\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocImplicitlyTypedVariables", "HocImplicitlyTypedVariables\HocImplicitlyTypedVariables.csproj", "{751EC292-D80F-43DF-BBE8-76AD4F071A30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocObjectInitializers", "HocObjectInitializers\HocObjectInitializers.csproj", "{DAAFE8CB-963D-4C65-874D-57D894592E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{751EC292-D80F-43DF-BBE8-76AD4F071A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{751EC292-D80F-43DF-BBE8-76AD4F071A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{751EC292-D80F-43DF-BBE8-76AD4F071A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAFE8CB-963D-4C65-874D-57D894592E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAFE8CB-963D-4C65-874D-57D894592E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAFE8CB-963D-4C65-874D-57D894592E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAFE8CB-963D-4C65-874D-57D894592E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
