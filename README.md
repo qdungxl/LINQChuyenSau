@@ -53,4 +53,10 @@ Trình bài cách LinQ tới dữ liệu và cách nó load khi có lệnh gọi
 
 ![image](https://user-images.githubusercontent.com/94212972/160270154-9e8ba942-c4e1-4d0a-aa25-c90bb69d29e1.png)
 
+## 11. Exists
+
+Kiểm tra trong List xem item có tồn tại không.
+
+![image](https://user-images.githubusercontent.com/94212972/160282102-df1fb5f0-2d08-41d1-903e-a4a1126ecb11.png)
+
 
