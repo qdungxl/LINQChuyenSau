@@ -48,3 +48,9 @@ Trình bài cách LinQ tới dữ liệu và cách nó load khi có lệnh gọi
 
 ![image](https://user-images.githubusercontent.com/94212972/160268768-d5fbc8b4-192c-4b93-916a-ce27e381a092.png)
 
+## 10. LinQ Exercise
+2 ví dụ nhỏ rèn luyện LinQ
+
+![image](https://user-images.githubusercontent.com/94212972/160270154-9e8ba942-c4e1-4d0a-aa25-c90bb69d29e1.png)
+
+
