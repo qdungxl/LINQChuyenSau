@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocLazyLoading", "HocLazyLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapRenLuyenKyThuatLinQ", "BaiTapRenLuyenKyThuatLinQ\BaiTapRenLuyenKyThuatLinQ.csproj", "{2651755E-0886-4BCC-92CC-46290E08187D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocForeach", "HocForeach\HocForeach.csproj", "{879D0435-1164-4F8C-8756-5C00577D4FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocExists", "HocExists\HocExists.csproj", "{D00157F0-CF43-426D-AEF2-2E4DBF3FFCE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{2651755E-0886-4BCC-92CC-46290E08187D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2651755E-0886-4BCC-92CC-46290E08187D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2651755E-0886-4BCC-92CC-46290E08187D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879D0435-1164-4F8C-8756-5C00577D4FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879D0435-1164-4F8C-8756-5C00577D4FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879D0435-1164-4F8C-8756-5C00577D4FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879D0435-1164-4F8C-8756-5C00577D4FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00157F0-CF43-426D-AEF2-2E4DBF3FFCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00157F0-CF43-426D-AEF2-2E4DBF3FFCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00157F0-CF43-426D-AEF2-2E4DBF3FFCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00157F0-CF43-426D-AEF2-2E4DBF3FFCE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
