@@ -35,3 +35,10 @@ Thêm phương thức cho một kiểu dữ liệu bất kỳ mà không biết 
 Làm một phương thức mà không cần khai báo trước, thường kết hợp với delegate để biết kiểu trả về và kiểu dữ liệu truyền vào.
 
 ![image](https://user-images.githubusercontent.com/94212972/160264588-3613c971-56ec-4b68-8c18-ad3553d84045.png)
+
+## 8. LinQ Syntax
+
+Trình bày cách viết Query syntax và Method syntax
+
+![image](https://user-images.githubusercontent.com/94212972/160265062-4ab6d575-4802-40be-8f63-cc21574fa43c.png)
+
