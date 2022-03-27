@@ -21,6 +21,12 @@ Trong này chứa ví dụ sử dụng Anonymous Types
 
 ## 5. Extension Method
 
-Trong này chứa các ví dụ sử dụng Extension Modthed. Thêm phương thức cho một kiểu dữ liệu bất kỳ mà không biết source code trong đó.
+Thêm phương thức cho một kiểu dữ liệu bất kỳ mà không biết source code trong đó.
 ![image](https://user-images.githubusercontent.com/94212972/160240389-c1682c85-d0c3-4109-b8ea-65a55ab7c42c.png)
+
+## 6. Delegate
+
+Định nghĩa tên một phương thức chung có cùng kiểu trả về và cùng đối số. Thường kết hợp với Extension Method để rút ngắn code và dễ quản lý source code.
+
+![image](https://user-images.githubusercontent.com/94212972/160262842-d6cb111b-4ad6-4c94-aad7-918a124cd6d1.png)
 
