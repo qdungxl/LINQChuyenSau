@@ -18,3 +18,9 @@ Trong này chứa ví dụ sử dụng Object Initializers
 Trong này chứa ví dụ sử dụng Anonymous Types
 
 ![image](https://user-images.githubusercontent.com/94212972/160230229-223e4bce-4761-4b92-9fb1-be4dce11f3be.png)
+
+## 5. Extension Method
+
+Trong này chứa các ví dụ sử dụng Extension Modthed. Thêm phương thức cho một kiểu dữ liệu bất kỳ mà không biết source code trong đó.
+![image](https://user-images.githubusercontent.com/94212972/160240389-c1682c85-d0c3-4109-b8ea-65a55ab7c42c.png)
+
