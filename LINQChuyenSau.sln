@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocLambdaExpreesion", "HocL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocCacLoaiCuPhapLinQ", "HocCacLoaiCuPhapLinQ\HocCacLoaiCuPhapLinQ.csproj", "{C054B9FF-1F40-41D8-B601-B2CE29A4B9B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocLazyLoading", "HocLazyLoading\HocLazyLoading.csproj", "{5AF14840-7734-4451-9CF5-1AD81E345660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C054B9FF-1F40-41D8-B601-B2CE29A4B9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C054B9FF-1F40-41D8-B601-B2CE29A4B9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C054B9FF-1F40-41D8-B601-B2CE29A4B9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF14840-7734-4451-9CF5-1AD81E345660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF14840-7734-4451-9CF5-1AD81E345660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF14840-7734-4451-9CF5-1AD81E345660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF14840-7734-4451-9CF5-1AD81E345660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
