@@ -42,3 +42,9 @@ Trình bày cách viết Query syntax và Method syntax
 
 ![image](https://user-images.githubusercontent.com/94212972/160265062-4ab6d575-4802-40be-8f63-cc21574fa43c.png)
 
+## 9. Lazy Loading
+
+Trình bài cách LinQ tới dữ liệu và cách nó load khi có lệnh gọi đến
+
+![image](https://user-images.githubusercontent.com/94212972/160268768-d5fbc8b4-192c-4b93-916a-ce27e381a092.png)
+
