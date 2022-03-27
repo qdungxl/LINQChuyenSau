@@ -30,7 +30,7 @@ Thêm phương thức cho một kiểu dữ liệu bất kỳ mà không biết 
 
 ![image](https://user-images.githubusercontent.com/94212972/160262842-d6cb111b-4ad6-4c94-aad7-918a124cd6d1.png)
 
-## 7.Lambda Expression
+## 7. Lambda Expression
 
 Làm một phương thức mà không cần khai báo trước, thường kết hợp với delegate để biết kiểu trả về và kiểu dữ liệu truyền vào.
 
