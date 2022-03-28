@@ -59,4 +59,9 @@ Kiểm tra trong List xem item có tồn tại không.
 
 ![image](https://user-images.githubusercontent.com/94212972/160282102-df1fb5f0-2d08-41d1-903e-a4a1126ecb11.png)
 
+## 12. Find
+
+Tìm kiếm trong list
+
+![image](https://user-images.githubusercontent.com/94212972/160397336-57c99533-4ddf-471a-95df-71fbab35dac3.png)
 
