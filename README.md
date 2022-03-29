@@ -65,3 +65,8 @@ Tìm kiếm trong list
 
 ![image](https://user-images.githubusercontent.com/94212972/160397336-57c99533-4ddf-471a-95df-71fbab35dac3.png)
 
+## 13. Find All
+
+Tìm kiếm có điều kiện
+
+![image](https://user-images.githubusercontent.com/94212972/160402252-ffcb6d62-de34-42d1-8d5e-12b5e74a854d.png)
