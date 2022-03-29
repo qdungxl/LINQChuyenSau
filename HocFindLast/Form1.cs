@@ -39,5 +39,35 @@ namespace HocFindLast
             double kq = dsNguon.FindLast(x => x == k);
             txtKQ.Text = kq + "";
         }
+        List<SanPham> dsSP = new List<SanPham>();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dsSP.Add(new SanPham() { Ma = "SP1", Ten = "Banh mi", HanDung = new DateTime(2022, 3, 2) });
+            dsSP.Add(new SanPham() { Ma = "SP2", Ten = "Banh kem", HanDung = new DateTime(2022, 3, 5) });
+            dsSP.Add(new SanPham() { Ma = "SP3", Ten = "Banh trang", HanDung = new DateTime(2022, 3, 7) });
+            dsSP.Add(new SanPham() { Ma = "SP4", Ten = "Banh sua", HanDung = new DateTime(2022, 3, 10) });
+            dsSP.Add(new SanPham() { Ma = "SP5", Ten = "Banh gao", HanDung = new DateTime(2022, 3, 6) });
+            dsSP.ForEach(x =>
+            {
+                ListViewItem lvi = new ListViewItem(x.Ma);
+                lvi.SubItems.Add(x.Ten);
+                lvi.SubItems.Add(x.HanDung.ToString("dd/MM/yyyy"));
+                lvSP.Items.Add(lvi);
+            });
+        }
+
+        private void btnTimNgay_Click(object sender, EventArgs e)
+        {
+            DateTime ngay = dateTimePicker1.Value;           
+            SanPham sp = dsSP.FindLast(x => x.HanDung.Date == ngay.Date);
+            if (sp == null)
+            {
+                MessageBox.Show("Khong tim thay.");
+            }
+            else
+            {
+                MessageBox.Show("Tim thay.");
+            }
+        }
     }
 }

@@ -39,8 +39,16 @@
             this.btnTim = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtKQ = new System.Windows.Forms.TextBox();
+            this.lvSP = new System.Windows.Forms.ListView();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.btnTimNgay = new System.Windows.Forms.Button();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -57,6 +65,13 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.splitContainer2);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.btnTimNgay);
+            this.splitContainer1.Panel2.Controls.Add(this.dateTimePicker1);
+            this.splitContainer1.Panel2.Controls.Add(this.label4);
+            this.splitContainer1.Panel2.Controls.Add(this.lvSP);
             this.splitContainer1.Size = new System.Drawing.Size(785, 551);
             this.splitContainer1.SplitterDistance = 383;
             this.splitContainer1.TabIndex = 0;
@@ -164,6 +179,63 @@
             this.txtKQ.Size = new System.Drawing.Size(162, 26);
             this.txtKQ.TabIndex = 4;
             // 
+            // lvSP
+            // 
+            this.lvSP.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.lvSP.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lvSP.FullRowSelect = true;
+            this.lvSP.GridLines = true;
+            this.lvSP.HideSelection = false;
+            this.lvSP.Location = new System.Drawing.Point(0, 0);
+            this.lvSP.Name = "lvSP";
+            this.lvSP.Size = new System.Drawing.Size(398, 330);
+            this.lvSP.TabIndex = 0;
+            this.lvSP.UseCompatibleStateImageBehavior = false;
+            this.lvSP.View = System.Windows.Forms.View.Details;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(20, 392);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(89, 20);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Chọn ngày:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(115, 387);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(271, 26);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // btnTimNgay
+            // 
+            this.btnTimNgay.Location = new System.Drawing.Point(283, 442);
+            this.btnTimNgay.Name = "btnTimNgay";
+            this.btnTimNgay.Size = new System.Drawing.Size(103, 41);
+            this.btnTimNgay.TabIndex = 3;
+            this.btnTimNgay.Text = "Tim";
+            this.btnTimNgay.UseVisualStyleBackColor = true;
+            this.btnTimNgay.Click += new System.EventHandler(this.btnTimNgay_Click);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Mã";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Tên";
+            this.columnHeader2.Width = 150;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Hạn dùng";
+            this.columnHeader3.Width = 150;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -174,7 +246,10 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Học FindLast";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.splitContainer2.Panel1.ResumeLayout(false);
@@ -200,6 +275,13 @@
         private System.Windows.Forms.Button btnTim;
         private System.Windows.Forms.TextBox txtTim;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnTimNgay;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ListView lvSP;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
     }
 }
 
