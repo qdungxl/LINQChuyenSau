@@ -54,3 +54,7 @@ Tìm kiếm có điều kiện
 ## 14. FindIndex
 
 Trả về vị trí đầu tiên tìm thấy trong List.
+
+## 15. FindLast
+
+Trả về giá trị tìm thấy cuối cùng.
