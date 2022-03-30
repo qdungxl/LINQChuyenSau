@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocFindLast", "HocFindLast\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocRemoveAll", "HocRemoveAll\HocRemoveAll.csproj", "{30D5A5D5-AABD-4E61-A737-810CFA6C391F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocTrueForAll", "HocTrueForAll\HocTrueForAll.csproj", "{3F05B06C-0DF4-41DB-8ABC-7A99C13367E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{30D5A5D5-AABD-4E61-A737-810CFA6C391F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D5A5D5-AABD-4E61-A737-810CFA6C391F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D5A5D5-AABD-4E61-A737-810CFA6C391F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F05B06C-0DF4-41DB-8ABC-7A99C13367E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F05B06C-0DF4-41DB-8ABC-7A99C13367E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F05B06C-0DF4-41DB-8ABC-7A99C13367E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F05B06C-0DF4-41DB-8ABC-7A99C13367E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
