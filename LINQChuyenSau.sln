@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocFindIndex", "HocFindInde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocFindLast", "HocFindLast\HocFindLast.csproj", "{992F028A-00DA-4489-90FE-40C475FC4070}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocRemoveAll", "HocRemoveAll\HocRemoveAll.csproj", "{30D5A5D5-AABD-4E61-A737-810CFA6C391F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{992F028A-00DA-4489-90FE-40C475FC4070}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992F028A-00DA-4489-90FE-40C475FC4070}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992F028A-00DA-4489-90FE-40C475FC4070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D5A5D5-AABD-4E61-A737-810CFA6C391F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D5A5D5-AABD-4E61-A737-810CFA6C391F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D5A5D5-AABD-4E61-A737-810CFA6C391F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D5A5D5-AABD-4E61-A737-810CFA6C391F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
