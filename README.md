@@ -58,3 +58,7 @@ Trả về vị trí đầu tiên tìm thấy trong List.
 ## 15. FindLast
 
 Trả về giá trị tìm thấy cuối cùng.
+
+## 16. RemoveAll
+
+Xóa có điều kiện các phần tử trong List.
