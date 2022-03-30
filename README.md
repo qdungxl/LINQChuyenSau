@@ -62,3 +62,7 @@ Trả về giá trị tìm thấy cuối cùng.
 ## 16. RemoveAll
 
 Xóa có điều kiện các phần tử trong List.
+
+## 17. TrueForAll
+
+Kiểm tra xem trong List có các phần tử thỏa tất cả các điều kiện đưa ra không.
