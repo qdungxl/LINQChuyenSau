@@ -70,3 +70,7 @@ Kiểm tra xem trong List có các phần tử thỏa tất cả các điều ki
 ## 18. Select
 
 Lấy ra các phần tử trong List thỏa mảng tiêu chí. Viết theo query syntax và method syntax.
+
+## 19. Where
+
+Lấy ra một item trong List thỏa điều kiện.
