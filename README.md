@@ -66,3 +66,7 @@ Xóa có điều kiện các phần tử trong List.
 ## 17. TrueForAll
 
 Kiểm tra xem trong List có các phần tử thỏa tất cả các điều kiện đưa ra không.
+
+## 18. Select
+
+Lấy ra các phần tử trong List thỏa mảng tiêu chí. Viết theo query syntax và method syntax.
