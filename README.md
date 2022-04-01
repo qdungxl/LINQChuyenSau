@@ -82,3 +82,6 @@ Sắp xếp tăng dần giảm dần, và kết hợp cả hai.
 ## 21. OfType
 
 Lấy ra các phân tử cùng 1 class trong một tập hợp nhiều loại class.
+
+## 22. Any
+Trả về true nếu có bất kỳ phần tử nào trong List thỏa mản điều kiện.
