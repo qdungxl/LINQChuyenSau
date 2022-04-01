@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocWhere", "HocWhere\HocWhe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocOrderBy", "HocOrderBy\HocOrderBy.csproj", "{1BEA1450-5236-4EA6-91C0-A159F86348F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocOfType", "HocOfType\HocOfType.csproj", "{A52EB4B6-F631-4DDA-9ECC-D9D74726D7D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{1BEA1450-5236-4EA6-91C0-A159F86348F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BEA1450-5236-4EA6-91C0-A159F86348F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BEA1450-5236-4EA6-91C0-A159F86348F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52EB4B6-F631-4DDA-9ECC-D9D74726D7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52EB4B6-F631-4DDA-9ECC-D9D74726D7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52EB4B6-F631-4DDA-9ECC-D9D74726D7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52EB4B6-F631-4DDA-9ECC-D9D74726D7D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
