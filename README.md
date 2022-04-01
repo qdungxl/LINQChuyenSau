@@ -79,3 +79,6 @@ Lấy ra một item trong List thỏa điều kiện.
 
 Sắp xếp tăng dần giảm dần, và kết hợp cả hai.
 
+## 21. OfType
+
+Lấy ra các phân tử cùng 1 class trong một tập hợp nhiều loại class.
