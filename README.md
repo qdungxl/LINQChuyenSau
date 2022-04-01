@@ -74,3 +74,8 @@ Lấy ra các phần tử trong List thỏa mảng tiêu chí. Viết theo query
 ## 19. Where
 
 Lấy ra một item trong List thỏa điều kiện.
+
+## 20. OrderBy And OrderByDescending
+
+Sắp xếp tăng dần giảm dần, và kết hợp cả hai.
+
