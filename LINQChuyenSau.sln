@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocAny", "HocAny\HocAny.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocMaxMin", "HocMaxMin\HocMaxMin.csproj", "{477358A1-13B8-4C2A-880A-C7C04A66DC55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocFirstOrDefault", "HocFirstOrDefault\HocFirstOrDefault.csproj", "{5BA6085B-8067-4837-85C7-5D4D3148890E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{477358A1-13B8-4C2A-880A-C7C04A66DC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{477358A1-13B8-4C2A-880A-C7C04A66DC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477358A1-13B8-4C2A-880A-C7C04A66DC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA6085B-8067-4837-85C7-5D4D3148890E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA6085B-8067-4837-85C7-5D4D3148890E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA6085B-8067-4837-85C7-5D4D3148890E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA6085B-8067-4837-85C7-5D4D3148890E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
