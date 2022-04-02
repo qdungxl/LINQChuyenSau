@@ -96,3 +96,5 @@ Lấy ra danh sách mới mà bỏ qua n phần tử trước đó.
 Lấy ra danh sách mới bắt đầu khi điều kiện bị sai.
 ## 27. Take
 Lấy ra n phần tử trong List.
+## 28. TakeWhile
+Lấy ra phần tử đến khi điều kiện được thỏa mãn.
