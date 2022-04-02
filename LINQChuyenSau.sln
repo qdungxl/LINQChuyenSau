@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocSkipWhile", "HocSkipWhil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocTake", "HocTake\HocTake.csproj", "{BE646183-BA22-4339-8E4F-1E56C9976A4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocTakeWhile", "HocTakeWhile\HocTakeWhile.csproj", "{1CC52B7D-B8EB-47BF-BB83-DEC19FD61284}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{BE646183-BA22-4339-8E4F-1E56C9976A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE646183-BA22-4339-8E4F-1E56C9976A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE646183-BA22-4339-8E4F-1E56C9976A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC52B7D-B8EB-47BF-BB83-DEC19FD61284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC52B7D-B8EB-47BF-BB83-DEC19FD61284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC52B7D-B8EB-47BF-BB83-DEC19FD61284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC52B7D-B8EB-47BF-BB83-DEC19FD61284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
