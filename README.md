@@ -92,3 +92,5 @@ Trả về giá trị lơn nhất, nhỏ nhất trong chuỗi.
 Trả về giá trị đầu tiên thỏa điều kiện được tìm thấy.
 ## 25. Skip
 Lấy ra danh sách mới mà bỏ qua n phần tử trước đó.
+## 26. SkipWhile
+Lấy ra danh sách mới bắt đầu khi điều kiện bị sai.
