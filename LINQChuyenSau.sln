@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocFirstOrDefault", "HocFir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocSkip", "HocSkip\HocSkip.csproj", "{1F6B3546-0254-4648-8734-46504900E29C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocSkipWhile", "HocSkipWhile\HocSkipWhile.csproj", "{88DC1295-3E57-495A-84DD-BFACA4C000EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{1F6B3546-0254-4648-8734-46504900E29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F6B3546-0254-4648-8734-46504900E29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F6B3546-0254-4648-8734-46504900E29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DC1295-3E57-495A-84DD-BFACA4C000EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DC1295-3E57-495A-84DD-BFACA4C000EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DC1295-3E57-495A-84DD-BFACA4C000EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DC1295-3E57-495A-84DD-BFACA4C000EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
