@@ -98,3 +98,5 @@ Lấy ra danh sách mới bắt đầu khi điều kiện bị sai.
 Lấy ra n phần tử trong List.
 ## 28. TakeWhile
 Lấy ra phần tử đến khi điều kiện được thỏa mãn.
+## 29. To Array
+Chuyển list sang array.
