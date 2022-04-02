@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocMaxMin", "HocMaxMin\HocM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocFirstOrDefault", "HocFirstOrDefault\HocFirstOrDefault.csproj", "{5BA6085B-8067-4837-85C7-5D4D3148890E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HocSkip", "HocSkip\HocSkip.csproj", "{1F6B3546-0254-4648-8734-46504900E29C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{5BA6085B-8067-4837-85C7-5D4D3148890E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BA6085B-8067-4837-85C7-5D4D3148890E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BA6085B-8067-4837-85C7-5D4D3148890E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6B3546-0254-4648-8734-46504900E29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6B3546-0254-4648-8734-46504900E29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6B3546-0254-4648-8734-46504900E29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6B3546-0254-4648-8734-46504900E29C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
