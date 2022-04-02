@@ -90,3 +90,5 @@ Trả về giá trị lơn nhất, nhỏ nhất trong chuỗi.
 ## 24. FirstOrDefault
 
 Trả về giá trị đầu tiên thỏa điều kiện được tìm thấy.
+## 25. Skip
+Lấy ra danh sách mới mà bỏ qua n phần tử trước đó.
