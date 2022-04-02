@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtN = new System.Windows.Forms.TextBox();
             this.btnTao = new System.Windows.Forms.Button();
-            this.lvSo = new System.Windows.Forms.ListBox();
+            this.lstInt = new System.Windows.Forms.ListBox();
             this.btnMax = new System.Windows.Forms.Button();
             this.btnMin = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -60,15 +60,16 @@
             this.btnTao.TabIndex = 2;
             this.btnTao.Text = "Tạo";
             this.btnTao.UseVisualStyleBackColor = true;
+            this.btnTao.Click += new System.EventHandler(this.btnTao_Click);
             // 
-            // lvSo
+            // lstInt
             // 
-            this.lvSo.FormattingEnabled = true;
-            this.lvSo.ItemHeight = 20;
-            this.lvSo.Location = new System.Drawing.Point(45, 91);
-            this.lvSo.Name = "lvSo";
-            this.lvSo.Size = new System.Drawing.Size(257, 244);
-            this.lvSo.TabIndex = 3;
+            this.lstInt.FormattingEnabled = true;
+            this.lstInt.ItemHeight = 20;
+            this.lstInt.Location = new System.Drawing.Point(45, 91);
+            this.lstInt.Name = "lstInt";
+            this.lstInt.Size = new System.Drawing.Size(257, 244);
+            this.lstInt.TabIndex = 3;
             // 
             // btnMax
             // 
@@ -78,6 +79,7 @@
             this.btnMax.TabIndex = 4;
             this.btnMax.Text = "Max";
             this.btnMax.UseVisualStyleBackColor = true;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
             // 
             // btnMin
             // 
@@ -87,6 +89,7 @@
             this.btnMin.TabIndex = 4;
             this.btnMin.Text = "Min";
             this.btnMin.UseVisualStyleBackColor = true;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // Form1
             // 
@@ -95,7 +98,7 @@
             this.ClientSize = new System.Drawing.Size(541, 376);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.btnMax);
-            this.Controls.Add(this.lvSo);
+            this.Controls.Add(this.lstInt);
             this.Controls.Add(this.btnTao);
             this.Controls.Add(this.txtN);
             this.Controls.Add(this.label1);
@@ -113,7 +116,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtN;
         private System.Windows.Forms.Button btnTao;
-        private System.Windows.Forms.ListBox lvSo;
+        private System.Windows.Forms.ListBox lstInt;
         private System.Windows.Forms.Button btnMax;
         private System.Windows.Forms.Button btnMin;
     }
