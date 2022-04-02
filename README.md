@@ -85,3 +85,8 @@ Lấy ra các phân tử cùng 1 class trong một tập hợp nhiều loại cl
 
 ## 22. Any
 Trả về true nếu có bất kỳ phần tử nào trong List thỏa mản điều kiện.
+## 23. MaxMin
+Trả về giá trị lơn nhất, nhỏ nhất trong chuỗi.
+## 24. FirstOrDefault
+
+Trả về giá trị đầu tiên thỏa điều kiện được tìm thấy.
