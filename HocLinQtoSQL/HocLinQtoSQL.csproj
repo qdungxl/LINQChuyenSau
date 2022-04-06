@@ -52,16 +52,61 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CSDL_QLSP.dbml</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimSanPhamTheoDonGiaMethodSyntax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimSanPhamTheoDonGiaMethodSyntax.Designer.cs">
+      <DependentUpon>frmTimSanPhamTheoDonGiaMethodSyntax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimSPTheoDonGiaQuerySyntax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimSPTheoDonGiaQuerySyntax.Designer.cs">
+      <DependentUpon>frmTimSPTheoDonGiaQuerySyntax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTruyVanSanPhamMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTruyVanSanPhamMethod.Designer.cs">
+      <DependentUpon>frmTruyVanSanPhamMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemChiTietMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemChiTietMethod.Designer.cs">
+      <DependentUpon>frmXemChiTietMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemChiTietQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemChiTietQuery.Designer.cs">
+      <DependentUpon>frmXemChiTietQuery.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimSanPhamTheoDonGiaMethodSyntax.resx">
+      <DependentUpon>frmTimSanPhamTheoDonGiaMethodSyntax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimSPTheoDonGiaQuerySyntax.resx">
+      <DependentUpon>frmTimSPTheoDonGiaQuerySyntax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTruyVanSanPhamMethod.resx">
+      <DependentUpon>frmTruyVanSanPhamMethod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemChiTietMethod.resx">
+      <DependentUpon>frmXemChiTietMethod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemChiTietQuery.resx">
+      <DependentUpon>frmXemChiTietQuery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
